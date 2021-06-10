@@ -1,7 +1,7 @@
 # Algorithm_02
 
 **1. Model**   
-### Model 3 : 7 Layers with 4 Convolution layer   
+### Model 3 : 7 Layers with 4 Convolution layer    
 
 ```python
 model_3 = keras.models.Sequential([
@@ -20,7 +20,7 @@ model_3 = keras.models.Sequential([
 ### Training for 5 epochs   
 ```python
 model.fit(train_images, train_labels,  epochs = 5)
-```
+```   
 Epoch 1/5   
 1875/1875 [==============================] - 49s 26ms/step - loss: 0.2235 - accuracy: 0.9535   
 Epoch 2/5   
