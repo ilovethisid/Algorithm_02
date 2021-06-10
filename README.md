@@ -1,6 +1,6 @@
 # Algorithm_02
 
-<b>1. Model</b>
+**1. Model**
 ### Model 3 : 7 Layers with 4 Convolution layer
 
 ```python
