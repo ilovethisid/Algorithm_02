@@ -13,8 +13,7 @@ model_3 = keras.models.Sequential([
   keras.layers.Conv2D(128, (3,3), activation = 'relu'),                           # layer 6
   keras.layers.Flatten(),
   keras.layers.Dense(10, activation = 'softmax')])                                # layer 7
-```
-
+```  
 
 
 **2. Training with Training loss**  
