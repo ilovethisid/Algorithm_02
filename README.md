@@ -44,10 +44,11 @@ print('Test accuracy :', accuracy)
 Test loss :  0.04629102349281311   
 Test accuracy : 0.9873
 
-4. Images and corresponding probability that predicted Right
+4. Images and corresponding probability that predicted Right   
+![correct number](https://user-images.githubusercontent.com/29995281/121518946-079c7d00-ca2c-11eb-8e31-1314c78cfebe.PNG)
 
-5. Images and corresponding probability that predicted Wrong
-
+5. Images and corresponding probability that predicted Wrong   
+![wrong number](https://user-images.githubusercontent.com/29995281/121518954-09fed700-ca2c-11eb-9314-2ac6c23557e9.PNG)
 
 
 
