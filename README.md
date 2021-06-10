@@ -44,10 +44,10 @@ print('Test accuracy :', accuracy)
 313/313 - 3s - loss: 0.0463 - accuracy: 0.9873
 
 Test loss :  0.04629102349281311   
-Test accuracy : 0.9873
+Test accuracy : 0.9873  
 
 **4. Images and corresponding probability that predicted Right**   
-![correct number](https://user-images.githubusercontent.com/29995281/121518946-079c7d00-ca2c-11eb-8e31-1314c78cfebe.PNG)
+![correct number](https://user-images.githubusercontent.com/29995281/121518946-079c7d00-ca2c-11eb-8e31-1314c78cfebe.PNG)  
 
 
 **5. Images and corresponding probability that predicted Wrong**   
