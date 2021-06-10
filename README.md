@@ -33,7 +33,7 @@ Epoch 5/5
 1875/1875 [==============================] - 47s 25ms/step - loss: 0.0320 - accuracy: 0.9903   
 <tensorflow.python.keras.callbacks.History at 0x2480d6b3970>
 
-</br>
+<br></br>
 **3. Test Accuracy**   
 ### Perform Test with Test data   
 ```python
