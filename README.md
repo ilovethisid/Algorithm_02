@@ -16,8 +16,8 @@ model_3 = keras.models.Sequential([
 ```
 
 <br>
-**2. Training with Training loss**     
-### Training for 5 epochs     
+**2. Training with Training loss**  
+### Training for 5 epochs  
 ```python
 model.fit(train_images, train_labels,  epochs = 5)
 ```   
