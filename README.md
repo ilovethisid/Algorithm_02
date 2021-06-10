@@ -34,6 +34,7 @@ Epoch 5/5
 <tensorflow.python.keras.callbacks.History at 0x2480d6b3970>
 
 <br/>  
+
 **3. Test Accuracy**   
 ### Perform Test with Test data   
 ```python
