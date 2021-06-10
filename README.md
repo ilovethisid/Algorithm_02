@@ -33,7 +33,7 @@ Epoch 5/5
 <tensorflow.python.keras.callbacks.History at 0x2480d6b3970>
 
 3. Test Accuracy
-## Perform Test with Test data
+### Perform Test with Test data
 ```python
 test_loss, accuracy = model.evaluate(test_images, test_labels, verbose = 2)
 print('\nTest loss : ', test_loss)
