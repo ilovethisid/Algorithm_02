@@ -16,6 +16,7 @@ model_3 = keras.models.Sequential([
 ```
 
 
+
 **2. Training with Training loss**  
 ### Training for 5 epochs  
 ```python
@@ -34,6 +35,7 @@ Epoch 5/5
 <tensorflow.python.keras.callbacks.History at 0x2480d6b3970>
 
 
+
 **3. Test Accuracy**   
 ### Perform Test with Test data   
 ```python
@@ -47,8 +49,10 @@ Test loss :  0.04629102349281311
 Test accuracy : 0.9873
 
 
+
 **4. Images and corresponding probability that predicted Right**   
 ![correct number](https://user-images.githubusercontent.com/29995281/121518946-079c7d00-ca2c-11eb-8e31-1314c78cfebe.PNG)
+
 
 
 **5. Images and corresponding probability that predicted Wrong**   
