@@ -20,16 +20,16 @@ model_3 = keras.models.Sequential([
 ```python
 model.fit(train_images, train_labels,  epochs = 5)
 ```
-Epoch 1/5
-1875/1875 [==============================] - 49s 26ms/step - loss: 0.2235 - accuracy: 0.9535
-Epoch 2/5
-1875/1875 [==============================] - 47s 25ms/step - loss: 0.0556 - accuracy: 0.9835
-Epoch 3/5
-1875/1875 [==============================] - 47s 25ms/step - loss: 0.0456 - accuracy: 0.9862
-Epoch 4/5
-1875/1875 [==============================] - 47s 25ms/step - loss: 0.0374 - accuracy: 0.9885
-Epoch 5/5
-1875/1875 [==============================] - 47s 25ms/step - loss: 0.0320 - accuracy: 0.9903
+Epoch 1/5   
+1875/1875 [==============================] - 49s 26ms/step - loss: 0.2235 - accuracy: 0.9535   
+Epoch 2/5   
+1875/1875 [==============================] - 47s 25ms/step - loss: 0.0556 - accuracy: 0.9835   
+Epoch 3/5   
+1875/1875 [==============================] - 47s 25ms/step - loss: 0.0456 - accuracy: 0.9862   
+Epoch 4/5   
+1875/1875 [==============================] - 47s 25ms/step - loss: 0.0374 - accuracy: 0.9885   
+Epoch 5/5   
+1875/1875 [==============================] - 47s 25ms/step - loss: 0.0320 - accuracy: 0.9903   
 <tensorflow.python.keras.callbacks.History at 0x2480d6b3970>
 
 3. Test Accuracy
@@ -41,7 +41,7 @@ print('Test accuracy :', accuracy)
 ```
 313/313 - 3s - loss: 0.0463 - accuracy: 0.9873
 
-Test loss :  0.04629102349281311
+Test loss :  0.04629102349281311   
 Test accuracy : 0.9873
 
 4. Images and corresponding probability that predicted Right
