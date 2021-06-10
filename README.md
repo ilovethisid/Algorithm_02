@@ -1,7 +1,7 @@
 # Algorithm_02
 
 1. Model
-## Model 3 : 7 Layers with 4 Convolution layer
+### Model 3 : 7 Layers with 4 Convolution layer
 
 ```python
 model_3 = keras.models.Sequential([
@@ -16,7 +16,7 @@ model_3 = keras.models.Sequential([
 ```
 
 2. Training with Training loss
-## Training for 5 epochs
+### Training for 5 epochs
 ```python
 model.fit(train_images, train_labels,  epochs = 5)
 ```
