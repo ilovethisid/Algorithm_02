@@ -14,7 +14,7 @@ model_3 = keras.models.Sequential([
   keras.layers.Flatten(),
   keras.layers.Dense(10, activation = 'softmax')])                                # layer 7
 ```  
-
+#  
 
 **2. Training with Training loss**  
 ### Training for 5 epochs  
