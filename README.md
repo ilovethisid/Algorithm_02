@@ -9,6 +9,7 @@ model_1 = keras.models.Sequential([
   keras.layers.MaxPool2D((2,2)),                                                  # layer 2 
   keras.layers.Flatten(),
   keras.layers.Dense(10, activation = 'softmax')])                                # layer 3
+  
 model_3 = keras.models.Sequential([
   keras.layers.Conv2D(32, (3,3), activation = 'relu', input_shape = (28, 28,1)),  # layer 1
   keras.layers.MaxPool2D((2,2)),                                                  # layer 2
@@ -27,16 +28,16 @@ model_3 = keras.models.Sequential([
 model.fit(train_images, train_labels,  epochs = 5)
 ```   
 Model 1   
-Epoch 1/5
-1875/1875 [==============================] - 17s 9ms/step - loss: 0.6630 - accuracy: 0.9399
-Epoch 2/5
-1875/1875 [==============================] - 18s 9ms/step - loss: 0.0834 - accuracy: 0.9751
-Epoch 3/5
-1875/1875 [==============================] - 17s 9ms/step - loss: 0.0703 - accuracy: 0.9792
-Epoch 4/5
-1875/1875 [==============================] - 17s 9ms/step - loss: 0.0620 - accuracy: 0.9813
-Epoch 5/5
-1875/1875 [==============================] - 17s 9ms/step - loss: 0.0546 - accuracy: 0.9838
+Epoch 1/5   
+1875/1875 [==============================] - 17s 9ms/step - loss: 0.6630 - accuracy: 0.9399  
+Epoch 2/5  
+1875/1875 [==============================] - 18s 9ms/step - loss: 0.0834 - accuracy: 0.9751  
+Epoch 3/5  
+1875/1875 [==============================] - 17s 9ms/step - loss: 0.0703 - accuracy: 0.9792  
+Epoch 4/5  
+1875/1875 [==============================] - 17s 9ms/step - loss: 0.0620 - accuracy: 0.9813  
+Epoch 5/5  
+1875/1875 [==============================] - 17s 9ms/step - loss: 0.0546 - accuracy: 0.9838  
 <tensorflow.python.keras.callbacks.History at 0x24f9a2d61c0>
 
 Model 3   
