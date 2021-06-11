@@ -89,7 +89,7 @@ Model 1
 Test loss :  0.11791642010211945  
 Test accuracy : 0.9730  
 
-Model 2
+Model 2  
 313/313 - 2s - loss: 0.0664 - accuracy: 0.9804  
 
 Test loss :  0.06635146588087082  
