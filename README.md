@@ -1,7 +1,7 @@
 # Algorithm_02
 
 **1. Model**   
-### Model that I chose : Model 3 : 7 Layers with 4 Convolution layer  
+### Model that I chose : Model 3 - 7 Layers with 4 Convolution layer  
 
 ```python
 model_1 = keras.models.Sequential([
