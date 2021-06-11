@@ -104,11 +104,26 @@ Test accuracy : 0.9873
 <br/>  
 
 **4. Images and corresponding probability that predicted Right**   
+Model 1
+![mod1 correct](https://user-images.githubusercontent.com/29995281/121654464-b5fdfc00-cad8-11eb-8c19-52c1bdadaf64.PNG)
+
+Model 2
+![mod2 correct](https://user-images.githubusercontent.com/29995281/121654470-b72f2900-cad8-11eb-97ca-2a6678804474.PNG)
+
+Model 3  
 ![correct number](https://user-images.githubusercontent.com/29995281/121518946-079c7d00-ca2c-11eb-8e31-1314c78cfebe.PNG)  
 
 <br/>  
 
 **5. Images and corresponding probability that predicted Wrong**   
+
+Model 1  
+![model1 wrong](https://user-images.githubusercontent.com/29995281/121654473-b8605600-cad8-11eb-8a1b-a0da6cb7353d.PNG)
+
+Model 2  
+![mod2 wrong](https://user-images.githubusercontent.com/29995281/121654471-b7c7bf80-cad8-11eb-9663-5873938b31fc.PNG)
+
+Model 3  
 ![wrong number](https://user-images.githubusercontent.com/29995281/121518954-09fed700-ca2c-11eb-9314-2ac6c23557e9.PNG)
 
 
