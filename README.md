@@ -65,7 +65,7 @@ print('Test accuracy :', accuracy)
 Model 1  
 313/313 - 1s - loss: 0.1179 - accuracy: 0.9730
 
-Test loss :  0.11791642010211945
+Test loss :  0.11791642010211945  
 Test accuracy : 0.9730  
 
 Model 3   
