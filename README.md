@@ -93,7 +93,7 @@ Model 2
 313/313 - 2s - loss: 0.0664 - accuracy: 0.9804  
 
 Test loss :  0.06635146588087082  
-Test accuracy : 0.980400025844574
+Test accuracy : 0.9804
 
 Model 3   
 313/313 - 3s - loss: 0.0463 - accuracy: 0.9873
