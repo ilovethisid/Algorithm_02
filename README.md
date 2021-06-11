@@ -10,6 +10,14 @@ model_1 = keras.models.Sequential([
   keras.layers.Flatten(),
   keras.layers.Dense(10, activation = 'softmax')])                                # layer 3
   
+model_2 = keras.models.Sequential([
+  keras.layers.Conv2D(32, (3,3), activation = 'relu', input_shape=(28,28,1)),     # layer 1 
+  keras.layers.MaxPool2D((2,2)),                                                  # layer 2
+  keras.layers.Conv2D(64, (3,3), activation = 'relu'),                            # layer 3 
+  keras.layers.MaxPool2D((2,2)),                                                  # layer 4
+  keras.layers.Flatten(),
+  keras.layers.Dense(10, activation = 'softmax')])                                # layer 5
+  
 model_3 = keras.models.Sequential([
   keras.layers.Conv2D(32, (3,3), activation = 'relu', input_shape = (28, 28,1)),  # layer 1
   keras.layers.MaxPool2D((2,2)),                                                  # layer 2
@@ -40,6 +48,19 @@ Epoch 5/5
 1875/1875 [==============================] - 17s 9ms/step - loss: 0.0546 - accuracy: 0.9838  
 <tensorflow.python.keras.callbacks.History at 0x24f9a2d61c0>
 
+Model 2  
+Epoch 1/5  
+1875/1875 [==============================] - 31s 16ms/step - loss: 0.4360 - accuracy: 0.9405  
+Epoch 2/5  
+1875/1875 [==============================] - 29s 16ms/step - loss: 0.0705 - accuracy: 0.9787  
+Epoch 3/5  
+1875/1875 [==============================] - 29s 15ms/step - loss: 0.0532 - accuracy: 0.98370s - los  
+Epoch 4/5  
+1875/1875 [==============================] - 28s 15ms/step - loss: 0.0482 - accuracy: 0.9849  
+Epoch 5/5  
+1875/1875 [==============================] - 28s 15ms/step - loss: 0.0452 - accuracy: 0.9867   
+<tensorflow.python.keras.callbacks.History at 0x1a0f0908fa0>
+
 Model 3   
 Epoch 1/5   
 1875/1875 [==============================] - 49s 26ms/step - loss: 0.2235 - accuracy: 0.9535   
@@ -67,6 +88,12 @@ Model 1
 
 Test loss :  0.11791642010211945  
 Test accuracy : 0.9730  
+
+Model 2
+313/313 - 2s - loss: 0.0664 - accuracy: 0.9804  
+
+Test loss :  0.06635146588087082  
+Test accuracy : 0.980400025844574
 
 Model 3   
 313/313 - 3s - loss: 0.0463 - accuracy: 0.9873
