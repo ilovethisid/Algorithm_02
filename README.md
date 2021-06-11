@@ -4,6 +4,11 @@
 ### Model 3 : 7 Layers with 4 Convolution layer  
 
 ```python
+model_1 = keras.models.Sequential([
+  keras.layers.Conv2D(32, (3,3), activation = 'relu', input_shape = (28, 28,1)),  # layer 1 
+  keras.layers.MaxPool2D((2,2)),                                                  # layer 2 
+  keras.layers.Flatten(),
+  keras.layers.Dense(10, activation = 'softmax')])                                # layer 3
 model_3 = keras.models.Sequential([
   keras.layers.Conv2D(32, (3,3), activation = 'relu', input_shape = (28, 28,1)),  # layer 1
   keras.layers.MaxPool2D((2,2)),                                                  # layer 2
@@ -21,6 +26,20 @@ model_3 = keras.models.Sequential([
 ```python
 model.fit(train_images, train_labels,  epochs = 5)
 ```   
+Model 1   
+Epoch 1/5
+1875/1875 [==============================] - 17s 9ms/step - loss: 0.6630 - accuracy: 0.9399
+Epoch 2/5
+1875/1875 [==============================] - 18s 9ms/step - loss: 0.0834 - accuracy: 0.9751
+Epoch 3/5
+1875/1875 [==============================] - 17s 9ms/step - loss: 0.0703 - accuracy: 0.9792
+Epoch 4/5
+1875/1875 [==============================] - 17s 9ms/step - loss: 0.0620 - accuracy: 0.9813
+Epoch 5/5
+1875/1875 [==============================] - 17s 9ms/step - loss: 0.0546 - accuracy: 0.9838
+<tensorflow.python.keras.callbacks.History at 0x24f9a2d61c0>
+
+Model 3   
 Epoch 1/5   
 1875/1875 [==============================] - 49s 26ms/step - loss: 0.2235 - accuracy: 0.9535   
 Epoch 2/5   
@@ -42,6 +61,13 @@ test_loss, accuracy = model.evaluate(test_images, test_labels, verbose = 2)
 print('\nTest loss : ', test_loss)
 print('Test accuracy :', accuracy)
 ```
+Model 1  
+313/313 - 1s - loss: 0.1179 - accuracy: 0.9730
+
+Test loss :  0.11791642010211945
+Test accuracy : 0.9730  
+
+Model 3   
 313/313 - 3s - loss: 0.0463 - accuracy: 0.9873
 
 Test loss :  0.04629102349281311   
