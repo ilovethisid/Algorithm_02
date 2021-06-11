@@ -104,10 +104,10 @@ Test accuracy : 0.9873
 <br/>  
 
 **4. Images and corresponding probability that predicted Right**   
-Model 1
+Model 1  
 ![mod1 correct](https://user-images.githubusercontent.com/29995281/121654464-b5fdfc00-cad8-11eb-8c19-52c1bdadaf64.PNG)
 
-Model 2
+Model 2  
 ![mod2 correct](https://user-images.githubusercontent.com/29995281/121654470-b72f2900-cad8-11eb-97ca-2a6678804474.PNG)
 
 Model 3  
